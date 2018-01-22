@@ -1,0 +1,178 @@
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 18:05:22
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 18:08:11
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 18:08:15
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 18:09:19
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 19:21:04
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 19:21:13
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 19:22:00
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 19:23:22
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 20:58:39
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+January 22, 2018 - 21:00:21
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+January 22, 2018 - 21:05:33
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 21:05:57
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 21:08:20
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+January 22, 2018 - 21:09:50
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2018 - 21:10:13
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+January 22, 2018 - 21:22:24
+Django version 1.9.8, using settings 'settings.standalone'
+Starting development server at http://0.0.0.0:10000/
+Quit the server with CONTROL-C.

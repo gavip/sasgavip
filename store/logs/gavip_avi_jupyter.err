@@ -1,0 +1,323 @@
+[C 18:09:07.673 NotebookApp] received signal 15, stopping
+[I 18:09:07.675 NotebookApp] Shutting down kernels
+/opt/conda/lib/python3.5/site-packages/django/core/management/base.py:577: RemovedInDjango110Warning: NoArgsCommand class is deprecated and will be removed in Django 1.10. Use BaseCommand instead, which takes no arguments by default.
+  RemovedInDjango110Warning
+
+/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py:345: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  self.fetch_command(subcommand).run_from_argv(self.argv)
+
+/opt/gavip_avi/base/urls.py:10: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^jsonp_get_task$', views.get_job, name='get_job'),
+
+/opt/gavip_avi/avi/urls.py:21: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  namespace='job_list')),
+
+/opt/gavip_avi/avi_auth/urls.py:12: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^load_profile$', views.load_profile, name='load_profile'),
+
+/opt/conda/lib/python3.5/site-packages/rest_framework_swagger/urls.py:10: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^api-docs/(?P<path>.*)/?$', SwaggerApiView.as_view(), name='django.swagger.api.view'),
+
+/opt/gavip_avi/gavip_avi/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^docs_api/', include('rest_framework_swagger.urls')),
+
+[I 18:09:18.590 NotebookApp] Writing notebook server cookie secret to /home/avi_worker/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 18:09:18.616 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 18:09:18.616 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 18:09:18.631 NotebookApp] Serving notebooks from local directory: /data/notebooks
+[I 18:09:18.632 NotebookApp] 0 active kernels 
+[I 18:09:18.632 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 18:09:18.632 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 18:09:18.632 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:00:03.690 NotebookApp] received signal 15, stopping
+[I 21:00:03.692 NotebookApp] Shutting down kernels
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/standalone.py", line 14, in <module>
+    from common import *
+ImportError: No module named 'common'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/common.py", line 17, in <module>
+    from logging_config import *
+ImportError: No module named 'logging_config'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/django_settings.py", line 126, in <module>
+    SECRET_KEY = open(SECRET_FILE).read().strip()
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/gavip_avi/settings/SECRET'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/django_settings.py", line 129, in <module>
+    with open(SECRET_FILE, 'w') as f:
+PermissionError: [Errno 13] Permission denied: '/opt/gavip_avi/settings/SECRET'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "manage.py", line 8, in <module>
+    execute_from_command_line(sys.argv)
+  File "/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+    utility.execute()
+  File "/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py", line 302, in execute
+    settings.INSTALLED_APPS
+  File "/opt/conda/lib/python3.5/site-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/opt/conda/lib/python3.5/site-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/opt/conda/lib/python3.5/site-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/conda/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/opt/gavip_avi/settings/standalone.py", line 16, in <module>
+    from .common import *
+  File "/opt/gavip_avi/settings/common.py", line 21, in <module>
+    from .django_settings import *
+  File "/opt/gavip_avi/settings/django_settings.py", line 134, in <module>
+    raise Exception('Cannot open file `%s` for writing.' % SECRET_FILE)
+Exception: Cannot open file `/opt/gavip_avi/settings/SECRET` for writing.
+/opt/conda/lib/python3.5/site-packages/django/core/management/base.py:577: RemovedInDjango110Warning: NoArgsCommand class is deprecated and will be removed in Django 1.10. Use BaseCommand instead, which takes no arguments by default.
+  RemovedInDjango110Warning
+
+/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py:345: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  self.fetch_command(subcommand).run_from_argv(self.argv)
+
+/opt/gavip_avi/base/urls.py:10: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^jsonp_get_task$', views.get_job, name='get_job'),
+
+/opt/gavip_avi/avi/urls.py:21: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  namespace='job_list')),
+
+/opt/gavip_avi/avi_auth/urls.py:12: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^load_profile$', views.load_profile, name='load_profile'),
+
+/opt/conda/lib/python3.5/site-packages/rest_framework_swagger/urls.py:10: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^api-docs/(?P<path>.*)/?$', SwaggerApiView.as_view(), name='django.swagger.api.view'),
+
+/opt/gavip_avi/gavip_avi/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^docs_api/', include('rest_framework_swagger.urls')),
+
+[I 21:00:20.047 NotebookApp] Writing notebook server cookie secret to /home/avi_worker/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 21:00:20.069 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 21:00:20.070 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 21:00:20.076 NotebookApp] Serving notebooks from local directory: /data/notebooks
+[I 21:00:20.076 NotebookApp] 0 active kernels 
+[I 21:00:20.076 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 21:00:20.076 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:00:20.076 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:05:17.418 NotebookApp] received signal 15, stopping
+[I 21:05:17.419 NotebookApp] Shutting down kernels
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/standalone.py", line 14, in <module>
+    from common import *
+ImportError: No module named 'common'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/common.py", line 17, in <module>
+    from logging_config import *
+ImportError: No module named 'logging_config'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/django_settings.py", line 126, in <module>
+    SECRET_KEY = open(SECRET_FILE).read().strip()
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/gavip_avi/settings/SECRET'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/django_settings.py", line 129, in <module>
+    with open(SECRET_FILE, 'w') as f:
+PermissionError: [Errno 13] Permission denied: '/opt/gavip_avi/settings/SECRET'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "manage.py", line 8, in <module>
+    execute_from_command_line(sys.argv)
+  File "/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+    utility.execute()
+  File "/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py", line 302, in execute
+    settings.INSTALLED_APPS
+  File "/opt/conda/lib/python3.5/site-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/opt/conda/lib/python3.5/site-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/opt/conda/lib/python3.5/site-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/conda/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/opt/gavip_avi/settings/standalone.py", line 16, in <module>
+    from .common import *
+  File "/opt/gavip_avi/settings/common.py", line 21, in <module>
+    from .django_settings import *
+  File "/opt/gavip_avi/settings/django_settings.py", line 134, in <module>
+    raise Exception('Cannot open file `%s` for writing.' % SECRET_FILE)
+Exception: Cannot open file `/opt/gavip_avi/settings/SECRET` for writing.
+/opt/conda/lib/python3.5/site-packages/django/core/management/base.py:577: RemovedInDjango110Warning: NoArgsCommand class is deprecated and will be removed in Django 1.10. Use BaseCommand instead, which takes no arguments by default.
+  RemovedInDjango110Warning
+
+/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py:345: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  self.fetch_command(subcommand).run_from_argv(self.argv)
+
+/opt/gavip_avi/base/urls.py:10: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^jsonp_get_task$', views.get_job, name='get_job'),
+
+/opt/gavip_avi/avi/urls.py:21: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  namespace='job_list')),
+
+/opt/gavip_avi/avi_auth/urls.py:12: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^load_profile$', views.load_profile, name='load_profile'),
+
+/opt/conda/lib/python3.5/site-packages/rest_framework_swagger/urls.py:10: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^api-docs/(?P<path>.*)/?$', SwaggerApiView.as_view(), name='django.swagger.api.view'),
+
+/opt/gavip_avi/gavip_avi/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^docs_api/', include('rest_framework_swagger.urls')),
+
+[I 21:05:32.775 NotebookApp] Writing notebook server cookie secret to /home/avi_worker/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 21:05:32.790 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 21:05:32.791 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 21:05:32.796 NotebookApp] Serving notebooks from local directory: /data/notebooks
+[I 21:05:32.797 NotebookApp] 0 active kernels 
+[I 21:05:32.797 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 21:05:32.797 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:05:32.797 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:09:24.402 NotebookApp] received signal 15, stopping
+[I 21:09:24.403 NotebookApp] Shutting down kernels
+/opt/conda/lib/python3.5/site-packages/django/core/management/base.py:577: RemovedInDjango110Warning: NoArgsCommand class is deprecated and will be removed in Django 1.10. Use BaseCommand instead, which takes no arguments by default.
+  RemovedInDjango110Warning
+
+/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py:345: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  self.fetch_command(subcommand).run_from_argv(self.argv)
+
+/opt/gavip_avi/base/urls.py:10: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^jsonp_get_task$', views.get_job, name='get_job'),
+
+/opt/gavip_avi/avi/urls.py:21: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  namespace='job_list')),
+
+/opt/gavip_avi/avi_auth/urls.py:12: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^load_profile$', views.load_profile, name='load_profile'),
+
+/opt/conda/lib/python3.5/site-packages/rest_framework_swagger/urls.py:10: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^api-docs/(?P<path>.*)/?$', SwaggerApiView.as_view(), name='django.swagger.api.view'),
+
+/opt/gavip_avi/gavip_avi/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^docs_api/', include('rest_framework_swagger.urls')),
+
+[I 21:09:49.585 NotebookApp] Writing notebook server cookie secret to /home/avi_worker/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 21:09:49.600 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 21:09:49.600 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 21:09:49.605 NotebookApp] Serving notebooks from local directory: /data/notebooks
+[I 21:09:49.605 NotebookApp] 0 active kernels 
+[I 21:09:49.605 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 21:09:49.605 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:09:49.606 NotebookApp] No web browser found: could not locate runnable browser.
+[C 21:22:12.658 NotebookApp] received signal 15, stopping
+[I 21:22:12.660 NotebookApp] Shutting down kernels
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/standalone.py", line 14, in <module>
+    from common import *
+ImportError: No module named 'common'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/common.py", line 17, in <module>
+    from logging_config import *
+ImportError: No module named 'logging_config'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/django_settings.py", line 126, in <module>
+    SECRET_KEY = open(SECRET_FILE).read().strip()
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/gavip_avi/settings/SECRET'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/gavip_avi/settings/django_settings.py", line 129, in <module>
+    with open(SECRET_FILE, 'w') as f:
+PermissionError: [Errno 13] Permission denied: '/opt/gavip_avi/settings/SECRET'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "manage.py", line 8, in <module>
+    execute_from_command_line(sys.argv)
+  File "/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+    utility.execute()
+  File "/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py", line 302, in execute
+    settings.INSTALLED_APPS
+  File "/opt/conda/lib/python3.5/site-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/opt/conda/lib/python3.5/site-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/opt/conda/lib/python3.5/site-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/conda/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/opt/gavip_avi/settings/standalone.py", line 16, in <module>
+    from .common import *
+  File "/opt/gavip_avi/settings/common.py", line 21, in <module>
+    from .django_settings import *
+  File "/opt/gavip_avi/settings/django_settings.py", line 134, in <module>
+    raise Exception('Cannot open file `%s` for writing.' % SECRET_FILE)
+Exception: Cannot open file `/opt/gavip_avi/settings/SECRET` for writing.
+/opt/conda/lib/python3.5/site-packages/django/core/management/base.py:577: RemovedInDjango110Warning: NoArgsCommand class is deprecated and will be removed in Django 1.10. Use BaseCommand instead, which takes no arguments by default.
+  RemovedInDjango110Warning
+
+/opt/conda/lib/python3.5/site-packages/django/core/management/__init__.py:345: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  self.fetch_command(subcommand).run_from_argv(self.argv)
+
+/opt/gavip_avi/base/urls.py:10: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^jsonp_get_task$', views.get_job, name='get_job'),
+
+/opt/gavip_avi/avi/urls.py:21: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  namespace='job_list')),
+
+/opt/gavip_avi/avi_auth/urls.py:12: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^load_profile$', views.load_profile, name='load_profile'),
+
+/opt/conda/lib/python3.5/site-packages/rest_framework_swagger/urls.py:10: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^api-docs/(?P<path>.*)/?$', SwaggerApiView.as_view(), name='django.swagger.api.view'),
+
+/opt/gavip_avi/gavip_avi/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'^docs_api/', include('rest_framework_swagger.urls')),
+
+[I 21:22:25.259 NotebookApp] Writing notebook server cookie secret to /home/avi_worker/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 21:22:25.274 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 21:22:25.274 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 21:22:25.280 NotebookApp] Serving notebooks from local directory: /data/notebooks
+[I 21:22:25.280 NotebookApp] 0 active kernels 
+[I 21:22:25.280 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 21:22:25.280 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:22:25.280 NotebookApp] No web browser found: could not locate runnable browser.

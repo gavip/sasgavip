@@ -1,0 +1,21 @@
+[I 180122 21:22:23 command:136] Visit me at http://localhost:5555
+[I 180122 21:22:23 command:141] Broker: redis://localhost:6379/0
+[I 180122 21:22:23 command:144] Registered tasks: 
+    ['celery.accumulate',
+     'celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap']
+[I 180122 21:22:23 mixins:224] Connected to redis://localhost:6379/0
+[W 180122 21:22:26 control:44] 'stats' inspect method failed
+[W 180122 21:22:26 control:44] 'active_queues' inspect method failed
+[W 180122 21:22:26 control:44] 'registered' inspect method failed
+[W 180122 21:22:26 control:44] 'scheduled' inspect method failed
+[W 180122 21:22:26 control:44] 'active' inspect method failed
+[W 180122 21:22:26 control:44] 'reserved' inspect method failed
+[W 180122 21:22:26 control:44] 'revoked' inspect method failed
+[W 180122 21:22:26 control:44] 'conf' inspect method failed

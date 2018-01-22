@@ -1,0 +1,1799 @@
+Checking data dir and making subdirs when necessary
+Checking if db exists
+db is missing. Creating..
+Checking if input exists
+input is missing. Creating..
+Checking if logs exists
+Checking if notebooks exists
+notebooks is missing. Creating..
+Checking if output exists
+output is missing. Creating..
+Checking if redis exists
+redis is missing. Creating..
+Migrating AVI database: Mon Nov 13 12:44:35 UTC 2017
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Mon Nov 13 12:44:37 UTC 2017
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Nov 13 12:58:54 UTC 2017
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrations for 'avi':
+  0001_initial.py:
+    - Create model SimpleJob
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  Rendering model states... DONE
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying pipeline.0001_initial... OK
+  Applying pipeline.0002_auto_20161024_0848... OK
+  Applying pipeline.0003_avijobrequest_output_path... OK
+  Applying pipeline.0004_pipestate_started_time... OK
+  Applying pipeline.0005_auto_20161215_2018... OK
+  Applying avi.0001_initial... OK
+  Applying sessions.0001_initial... OK
+Migrated AVI database: Mon Nov 13 12:58:58 UTC 2017
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Tue Nov 14 16:27:15 UTC 2017
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Tue Nov 14 16:27:18 UTC 2017
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Wed Nov 15 09:18:36 UTC 2017
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Wed Nov 15 09:18:39 UTC 2017
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Wed Nov 15 10:14:14 UTC 2017
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Wed Nov 15 10:14:18 UTC 2017
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Wed Nov 15 10:26:00 UTC 2017
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Wed Nov 15 10:26:03 UTC 2017
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Wed Nov 15 10:34:16 UTC 2017
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Wed Nov 15 10:34:19 UTC 2017
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Wed Nov 15 10:59:45 UTC 2017
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Wed Nov 15 10:59:48 UTC 2017
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 09:59:48 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 09:59:52 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 10:06:20 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 10:06:23 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 11:12:12 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 11:12:16 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 11:38:16 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 11:38:19 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 11:48:29 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 11:48:32 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 11:49:58 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 11:50:04 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 11:51:48 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 11:51:51 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 11:53:41 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 11:53:47 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 11:57:41 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 11:57:44 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 13:29:01 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 13:29:07 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 13:31:29 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 13:31:32 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 13:36:49 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 13:36:55 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 13:45:44 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 13:45:49 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 13:47:34 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 13:47:38 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 13:53:25 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrations for 'avi':
+  0002_auto_20180118_1353.py:
+    - Alter field query on simplejob
+    - Alter field resources_cpu_cores on simplejob
+    - Alter field resources_ram_mb on simplejob
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: contenttypes, avi, admin, auth, sessions, pipeline
+Running migrations:
+  Rendering model states... DONE
+  Applying avi.0002_auto_20180118_1353... OK
+Migrated AVI database: Thu Jan 18 13:53:29 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 13:54:32 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 13:54:36 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 13:55:56 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 13:56:00 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 13:58:06 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 13:58:09 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 14:04:24 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 14:04:28 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 14:06:46 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 14:06:50 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 14:09:46 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 14:09:50 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 14:16:54 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 14:16:57 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 14:17:49 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 14:17:53 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 14:18:36 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 14:18:43 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 14:24:44 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 14:24:50 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 14:26:01 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 14:26:04 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 14:35:41 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 14:35:47 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 14:56:07 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 14:56:13 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 15:02:11 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 15:02:14 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 15:04:18 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 15:04:21 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 15:07:44 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 15:07:50 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 15:12:54 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 15:13:00 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 15:14:04 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 15:14:10 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 15:22:20 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 15:22:26 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 15:23:57 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 15:24:01 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 15:26:05 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 15:26:11 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 15:53:49 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 15:53:56 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 15:57:18 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 15:57:24 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 16:02:55 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 16:03:02 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 16:04:24 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, admin, auth, contenttypes, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Thu Jan 18 16:04:30 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Thu Jan 18 16:05:40 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Thu Jan 18 16:05:45 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 09:14:54 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 09:14:58 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 09:17:43 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 09:17:47 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 10:41:00 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 10:41:04 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 10:50:11 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 10:50:14 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 10:56:06 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 10:56:10 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 10:57:34 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 10:57:38 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 10:58:48 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 10:58:52 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 11:01:12 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 11:01:19 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 11:06:45 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 11:06:51 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 11:07:40 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 11:07:44 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 11:11:35 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 11:11:39 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 11:13:59 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 11:14:03 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 11:15:06 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: contenttypes, sessions, auth, admin, avi, pipeline
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Fri Jan 19 11:15:14 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 11:20:15 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 11:20:22 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 11:21:00 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 11:21:07 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 11:21:44 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: sessions, avi, contenttypes, auth, admin, pipeline
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Fri Jan 19 11:21:51 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 13:44:33 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 13:44:37 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 13:45:47 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: sessions, contenttypes, pipeline, auth, admin, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Fri Jan 19 13:45:54 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 13:47:48 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, admin, contenttypes, avi, sessions, auth
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Fri Jan 19 13:47:55 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 13:50:11 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 13:50:15 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 13:52:58 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: avi, admin, auth, pipeline, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Fri Jan 19 13:53:05 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 14:59:16 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 14:59:20 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Fri Jan 19 17:00:11 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrated AVI database: Fri Jan 19 17:00:15 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 15:20:31 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrations for 'avi':
+  0003_auto_20180122_1520.py:
+    - Create model EuclidJob
+    - Remove field request from simplejob
+    - Delete model SimpleJob
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: auth, sessions, avi, contenttypes, admin, pipeline
+Running migrations:
+  Rendering model states... DONE
+  Applying avi.0003_auto_20180122_1520... OK
+Migrated AVI database: Mon Jan 22 15:20:39 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 15:45:39 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: auth, contenttypes, pipeline, avi, admin, sessions
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Mon Jan 22 15:45:46 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 15:46:32 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: contenttypes, avi, pipeline, sessions, auth, admin
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Mon Jan 22 15:46:39 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 17:27:36 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, auth, sessions, contenttypes, avi, admin
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Mon Jan 22 17:27:44 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 17:48:38 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: sessions, contenttypes, pipeline, admin, auth, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Mon Jan 22 17:48:46 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 17:56:24 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: sessions, auth, pipeline, contenttypes, admin, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Mon Jan 22 17:56:31 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 18:02:31 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: auth, admin, sessions, pipeline, avi, contenttypes
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Mon Jan 22 18:02:38 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 18:05:19 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: admin, contenttypes, sessions, pipeline, auth, avi
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Mon Jan 22 18:05:26 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 18:09:16 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: sessions, avi, pipeline, admin, auth, contenttypes
+Running migrations:
+  No migrations to apply.
+Migrated AVI database: Mon Jan 22 18:09:21 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 21:00:17 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrations for 'avi':
+  0004_auto_20180122_2100.py:
+    - Alter field query on euclidjob
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: contenttypes, auth, avi, admin, sessions, pipeline
+Running migrations:
+  Rendering model states... DONE
+  Applying avi.0004_auto_20180122_2100... OK
+Migrated AVI database: Mon Jan 22 21:00:21 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 21:05:29 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrations for 'avi':
+  0005_auto_20180122_2105.py:
+    - Alter field query on euclidjob
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: avi, sessions, admin, auth, contenttypes, pipeline
+Running migrations:
+  Rendering model states... DONE
+  Applying avi.0005_auto_20180122_2105... OK
+Migrated AVI database: Mon Jan 22 21:05:33 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 21:09:47 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrations for 'avi':
+  0006_auto_20180122_2109.py:
+    - Alter field query on euclidjob
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: pipeline, sessions, avi, auth, contenttypes, admin
+Running migrations:
+  Rendering model states... DONE
+  Applying avi.0006_auto_20180122_2109... OK
+Migrated AVI database: Mon Jan 22 21:09:52 UTC 2018
+Checking data dir and making subdirs when necessary
+Checking if db exists
+Checking if input exists
+Checking if logs exists
+Checking if notebooks exists
+Checking if output exists
+Checking if redis exists
+Migrating AVI database: Mon Jan 22 21:22:22 UTC 2018
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Migrations for 'avi':
+  0007_auto_20180122_2122.py:
+    - Alter field query on euclidjob
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+No changes detected in app 'avi'
+Setting avi_loglevel: INFO
+Setting django_loglevel: WARN
+Setting django_db_loglevel: WARN
+Operations to perform:
+  Apply all migrations: auth, avi, pipeline, sessions, admin, contenttypes
+Running migrations:
+  Rendering model states... DONE
+  Applying avi.0007_auto_20180122_2122... OK
+Migrated AVI database: Mon Jan 22 21:22:26 UTC 2018
