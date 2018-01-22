@@ -1,0 +1,28 @@
+{% extends "base/base.html" %}
+
+{% block avi_title %}
+  Job Result: {{job_id}}
+{% endblock avi_title %}
+
+{% block avi_content %}
+
+  <div class="container-fluid">
+       
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        Result view help
+      </div>
+      <div class="panel-body">
+        <p>This is a panel which renders one of the job results.</p>
+        <p>Toggle the variable details to see more information about the results.</p>
+        <p> The data is rendered using Pandas and Pandas-profiling.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ pandas_profiling|safe }}
+    </div>
+
+  </div>
+
+{% endblock avi_content %}
