@@ -65,6 +65,7 @@ class ProcessData(AviTask):
         """
         Analyses the VOTable file containing the sas-dev query results
         """
+        """
         t = Table.read(self.input().path, format='votable')
         df = pd.DataFrame(np.ma.filled(t.as_array()), columns=t.colnames)
 
@@ -78,4 +79,4 @@ class ProcessData(AviTask):
         encoded_panda_str = panda_str.encode('utf-8')
        
         with open(self.output().path, 'wb') as out:
-            out.write(encoded_panda_str)
+            out.write(encoded_panda_str)"""
