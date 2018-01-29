@@ -21,4 +21,4 @@ class EuclidJob(AviJob):
                                CIRCLE('ICRS',16.41683,4.90781, 26)) 
               ORDER BY dist ASC""")
     
-    pipeline_task = "ProcessData"
+    """ pipeline_task = "ProcessData" """
