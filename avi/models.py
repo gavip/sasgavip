@@ -15,10 +15,10 @@ class EuclidJob(AviJob):
     query = models.CharField(max_length=1000, 
         default="""SELECT objectid, rightascension, declination, flagh, flagj, flagvis, flagy, fluxhaper, fluxjaper, fluxvisaper, fluxyaper,
                       DISTANCE(POINT('ICRS', rightascension, declination), 
-                              POINT('ICRS',16.41683,4.90781)) AS dist
+                              POINT('ICRS', 8.62, -19.93)) AS dist
                       FROM sc3_mer_cat_10 
               WHERE 1=CONTAINS(POINT('ICRS', rightascension, declination), 
-                               CIRCLE('ICRS',16.41683,4.90781, 26)) 
+                               CIRCLE('ICRS', 8.62, -19.93, 0.1)) 
               ORDER BY dist ASC""")
     
     """ pipeline_task = "ProcessData" """
